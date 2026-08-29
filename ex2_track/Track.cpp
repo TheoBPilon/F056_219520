@@ -27,7 +27,13 @@ double Track::Pt() const{
 double Track::Eta() const{
     double pt = Pt();    
     if(pt < 1e-12){
-        if (pz_ == 0.0) return 0; // particula esta em repouso
+
+        // pseudorrapidez nao definida para particula com momento nulo
+        if(abs(pz_) < 1e-12){
+            return numeric_limits<double>::quiet_NaN();
+        }
+
+        // para o caso de pz nao nulo, retorna +inf e -inf
         //      (condicao) ? (valor se verdadeiro (pz>0)) : (valor se falso(pz<0))
         return (pz_ > 0 ) ? numeric_limits<double>::infinity():-numeric_limits<double>::infinity();
     }
