@@ -2,7 +2,7 @@
 
 using namespace std;
 int main(){
-    SimpleMET met(20.0,10.0); // cria objeto simplemet inicialmnente nulo
+    SimpleMET met(20.0,10.0); // cria objeto simpleMET
 
     // printando met inicialmente
     cout << "--- MET INICIAL ---" << endl;
