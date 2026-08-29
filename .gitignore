@@ -1,0 +1,12 @@
+# EXERCICIO 1
+
+# Executavel
+ex1_met/testMET
+# bib gerada
+ex1_met/libSimpleMET.so
+# Obj
+ex1_met/*.o
+# Temp
+ex1_met/*~
+# config minha do vscode
+.vscode/

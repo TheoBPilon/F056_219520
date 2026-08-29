@@ -23,7 +23,7 @@ int main(){
     double expectedMET1 = sqrt(19.0 * 19.0 + 8.0 * 8.0);
 
     // printando met depois do primeiro objeto
-    cout << "--- MET INICIAL ---" << endl;
+    cout << "--- MET APOS PRIMEIRO OBJETO ---" << endl;
     cout << "Ex = " << met.Ex() << endl;
     cout << "Ey = " << met.Ey() << endl;
     cout << "MET = " << met.Value() << endl;
@@ -49,13 +49,15 @@ int main(){
     double px2 = 3.00;
     double py2 = 20;
 
+    met.Add(px2,py2);
+
     // Valores esperados
     double expectedEx2 = 16.0;
     double expectedEy2 = -12.0;
     double expectedMET2 = 20.0;
 
     // printando met depois do primeiro objeto
-    cout << "--- MET INICIAL ---" << endl;
+    cout << "--- MET APOS SEGUNDO OBJETO ---" << endl;
     cout << "Ex = " << met.Ex() << endl;
     cout << "Ey = " << met.Ey() << endl;
     cout << "MET = " << met.Value() << endl;
