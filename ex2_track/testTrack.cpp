@@ -20,7 +20,7 @@ int main(){
     cout << "py = " << track1.Pz()<< endl;
     cout << "pT = " << track1.Pt()<< endl;
     cout << "eta = " << track1.Eta()<< endl;
-    cout << "Particle ID = " << track1.ParentId()<< endl;
+    cout << "Particle ID = " << track1.ParticleId()<< endl;
     cout << "Parent ID = " << track1.ParentId()<< endl;
     cout << endl;
 
@@ -32,7 +32,7 @@ int main(){
     cout << "py = " << track2.Pz()<< endl;
     cout << "pT = " << track2.Pt()<< endl;
     cout << "eta = " << track2.Eta()<< endl;
-    cout << "Particle ID = " << track2.ParentId()<< endl;
+    cout << "Particle ID = " << track2.ParticleId()<< endl;
     cout << "Parent ID = " << track2.ParentId()<< endl;
     cout << endl;
 
