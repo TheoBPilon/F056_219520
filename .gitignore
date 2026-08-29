@@ -10,3 +10,16 @@ ex1_met/*.o
 ex1_met/*~
 # config minha do vscode
 .vscode/
+
+# EXERCICIO 2
+
+# Executavel
+ex2_track/testTrack
+# Bibliotecas geradas
+ex2_track/libTrack.so
+ex2_track/libSimTrack.so
+# Objetos
+ex2_track/*.o
+# Temporarios
+ex2_track/*~
+
