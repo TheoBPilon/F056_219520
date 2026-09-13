@@ -7,8 +7,8 @@ void generate() {
     TTree *tree = new TTree("tree", "gausian_numbers");
 
     const int N = 1000;
-    double mean = 3.0;
-    double sigma =0.5;
+    double mean = 2.0;
+    double sigma =1;
 
     double x;
     tree->Branch("x",&x,"x/D");
