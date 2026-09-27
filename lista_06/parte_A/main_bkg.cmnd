@@ -1,0 +1,13 @@
+! condig do feixe
+Beams:idA = 2212 ! proton
+Beams:idB = 2212 ! proton
+Beams:eCM = 13000 ! energia do CM em GeV
+
+! config da pdf
+PDF:pSet = LHAPDF6:cteq6l1
+
+! numero de eventos
+Main:numberOfEvents = 1000 ! numero de eventos a serem gerados
+Main:timesAllowErrors = 10 ! numero de eventos que o programa vai tentar antes de abortar
+
+

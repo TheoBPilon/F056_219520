@@ -18,7 +18,7 @@ int main() {
         return 1;
     }
 
-    TFile outputFile("higgs_mass.root", "RECREATE");
+    TFile outputFile("root_files/higgs_mass.root", "RECREATE");
     TTree tree("events","Eventos de Produção do Higgs");
 
     float mH = 0.0;
