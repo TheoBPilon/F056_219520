@@ -1,0 +1,19 @@
+! escolhendo o feixe de colisao
+Beams:idA = 2212 ! proton
+Beams:idB = 2212 ! proton
+Beams:eCM = 13000 ! energia do CM em GeV
+
+! config da pdf
+PDF:pSet = LHAPDF6:cteq6l1
+
+! canal de producao do higgs (gg->2H)
+HiggsSM:gg2H = on
+
+! massa e canais de decaimento do Higgs
+25:m0 = 125. ! massa do Higgs
+25:onMode = off ! desliga o modo on de decaimento do higgs
+25:onIfMatch = 5 -5 ! higs so decai em botom e anti botom
+
+! controle de execucao
+Main:numberOfEvents = 1000 ! numero de eventos a serem gerados
+Main:timesAllowErrors = 10 ! numero de eventos que o programa vai tentar antes de abortar

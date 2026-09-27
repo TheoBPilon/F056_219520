@@ -1,0 +1,27 @@
+{
+    "configurations": [
+        {
+            "name": "groot",
+            "compilerPath": "/home/theobassopilon/miniforge3/envs/groot/bin/x86_64-conda-linux-gnu-g++",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "linux-gcc-x64",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/home/theobassopilon/miniforge3/envs/groot/include",
+                "/home/theobassopilon/miniforge3/envs/groot/include/root",
+                "/home/theobassopilon/miniforge3/envs/groot/include/Pythia8"
+            ],
+            "browse": {
+                "path": [
+                    "${workspaceFolder}",
+                    "/home/theobassopilon/miniforge3/envs/groot/include",
+                    "/home/theobassopilon/miniforge3/envs/groot/include/root",
+                    "/home/theobassopilon/miniforge3/envs/groot/include/Pythia8"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            }
+        }
+    ],
+    "version": 4
+}
